@@ -431,7 +431,7 @@ img {
 	color: var(--accent-text-color);
 }
 .right-container {
-	width: 206px;
+	/* width: 206px; */
 	margin-left: 70px;
 }
 
@@ -470,7 +470,8 @@ img {
 	margin-right: 8px;
 }
 .style-btn:hover,
-.style-btn:focus {
+.style-btn:focus,
+.style-btn:active {
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
 		0px 2px 2px rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
@@ -491,7 +492,7 @@ img {
 	color: #212121;
 }
 
-.btn-portfolio:active,
+/* .btn-portfolio:active, */
 .btn-portfolio:hover,
 .btn-portfolio:focus {
 	color: #ffffff;
@@ -511,12 +512,23 @@ img {
 	margin-bottom: 30px;
 }
 
-.example-portfolio-list:hover {
+/* .example-portfolio-list:hover,
+.example-portfolio-list:focus {
+	cursor: pointer; */
+/* box-sizing: border-box;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+		1px 4px 6px rgba(0, 0, 0, 0.16); 
+} */
+
+.link-portfolio:focus,
+.link-portfolio:hover {
+	display: block;
 	cursor: pointer;
 	box-sizing: border-box;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 		1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .example-block-text {
 	padding: 20px 24px;
 	border: 1px solid #eeeeee;
